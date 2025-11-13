@@ -1,0 +1,9 @@
+# [language-server.iwe]
+# command = "iwes"
+
+[[language]]
+name = "markdown"
+language-servers = [ "marksman" ] # you might want more LSPs in here
+indent = { tab-width = 4, unit = " " }
+auto-format = true # optional, enable format-on-save
+comment-tokens = ["-", "+", "*", "1.", ">", "- [ ]"]
